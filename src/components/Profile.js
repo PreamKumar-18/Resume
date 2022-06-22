@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import ImgProfile from '../images/person1.jpg';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 export default function Profile() {
@@ -18,7 +19,7 @@ export default function Profile() {
                     <span className='card-title activator grey-text text-darken-4'>
                         React Developer
                     </span>
-                    <p>Full Stack Web Developer</p>
+                    <p>Front End Developer</p>
                 </div>
                 <div className='card-reveal'>
                     <span className='card-title grey-text text-darken-4'>
@@ -26,11 +27,11 @@ export default function Profile() {
                         <i className='material-icons right'>close</i>
                     </span>
                     <p className='flex-container'>
-                        <i className='fab fa-facebook-f grey-text text-darken-4 social_style'></i>
+                        <i className='fab fa-facebook grey-text text-darken-4 social_style'></i>
                         <i className='fab fa-twitter grey-text text-darken-4 social_style'></i>
                         <i className='fab fa-google-plus-g grey-text text-darken-4 social_style'></i>
                         <i className='fab fa-instagram grey-text text-darken-4 social_style'></i>
-                        <i className='fab fa-pinterest grey-text text-darken-4 social_style'></i>
+                        <i className='fab fa-linkedin grey-text text-darken-4 social_style'></i>
                     </p>
                 </div>
             </div>

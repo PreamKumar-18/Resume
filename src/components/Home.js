@@ -5,7 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Experiences from './Experiences';
 import Educations from './Educations';
-import Portfolios from './Portfolios';
+// import Portfolios from './Portfolios';
 
 function Home() {
 
@@ -22,7 +22,7 @@ function Home() {
                         <Skills />
                         <Experiences />
                         <Educations />
-                        <Portfolios />
+                        {/* <Portfolios /> */}
                     </div>
                 </div>
             </div>

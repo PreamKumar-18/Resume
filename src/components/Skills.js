@@ -3,6 +3,7 @@ import React from 'react';
 export default function Skills() {
     return (
         <div>
+           
             <div className="card">
                 <div className="card-content">
                     <h6>
@@ -14,7 +15,7 @@ export default function Skills() {
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"
-                                    style={{ width: '89%' }}
+                                    style={{ width: '100%' }}
                                 ></div>
                             </div>
                         </div>
@@ -50,7 +51,7 @@ export default function Skills() {
                     </div>
                     <div className="row">
                         <div className="col s6">
-                            <p>GIT HUB</p>
+                            <p>ANGULAR Js</p>
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"
@@ -59,7 +60,7 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col s6">
-                            <p>JQUERY</p>
+                            <p>REDUX</p>
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"

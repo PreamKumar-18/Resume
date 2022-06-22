@@ -1,8 +1,10 @@
 import React from 'react';
 
+
 export default function Experiences() {
     return (
         <div>
+          
             <div className="card">
                 <div className="card-content">
                     <h6>
@@ -11,21 +13,18 @@ export default function Experiences() {
                     <div className="row mt-top">
                         <div className="col xl4 l4 m6 s12">
                             <p className="teal year_exp white-text">
-                                Aug
-                                <strong>2020</strong> - Dec
-                                <strong>2021</strong>
+                                Jul
+                                <strong>2022</strong> 
                             </p>
                         </div>
                         <div className="col xl8 l8 m6 s12">
                             <blockquote className="no-pad">
                                 <h6 className="no-pad mt-bottom">
-                                    <strong>WEB DEVELOPER</strong>
+                                    <strong>ASSOCIATE SOFTWARE ENGINEER</strong>
+                                    <p>Svam InternationalS.INC</p>
                                 </h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                                    earum doloribus dicta quod architecto, praesentium totam
-                                    molestiae similique culpa repellat blanditiis nam facilis eius
-                                    quaerat distinctio vitae, tenetur beatae repellendus?
+                                    
                                 </p>
                             </blockquote>
                         </div>
@@ -33,21 +32,19 @@ export default function Experiences() {
                     <div className="row mt-top">
                         <div className="col xl4 l4 m6 s12">
                             <p className="teal year_exp white-text">
-                                Aug
-                                <strong>2020</strong> - Dec
-                                <strong>2021</strong>
+                                Jan
+                                <strong>2022</strong> - Jun
+                                <strong>2022</strong>
                             </p>
                         </div>
                         <div className="col xl8 l8 m6 s12">
                             <blockquote className="no-pad">
                                 <h6 className="no-pad mt-bottom">
-                                    <strong>WEB DEVELOPER</strong>
+                                    <strong>Internship Trainee</strong>
+                                    <p>Svam InternationalS.inc</p>
                                 </h6>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-                                    earum doloribus dicta quod architecto, praesentium totam
-                                    molestiae similique culpa repellat blanditiis nam facilis eius
-                                    quaerat distinctio vitae, tenetur beatae repellendus?
+                                   Learnt HTML, CSS, JAVASCRIPT, BOOTSTRAP, TYPESCRIPT, ANGULAR, REACT, REACT REDUX.
                                 </p>
                             </blockquote>
                         </div>

@@ -1,8 +1,24 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import certificate from "./../images/certificate.jpg";
+import { useState } from 'react';
+import "./Educations.css"
+
+
 
 
 export default function Educations() {
+    const [imageClicked, setImageClicked] = useState({
+        //   first: false,
+        //   second: false,
+        certificate: false
+    });
+    const onClickHandler = (order) => {
+        setImageClicked((prevState) => ({
+            ...prevState,
+            [order]: !prevState[order]
+        }));
+    };
     return (
         <div>
             <div className='card'>
@@ -13,9 +29,9 @@ export default function Educations() {
                     <table className='striped'>
                         <thead>
                             <tr>
-                                <th>Certificate</th>
+                                <th>Education Details</th>
                                 <th>Date</th>
-                                <th></th>
+                                <th>Certificates</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -23,9 +39,9 @@ export default function Educations() {
                                 <td>SSC</td>
                                 <td>Mar 2016</td>
                                 <td>
-                                    <Link to='/details' className='btn blue lighten-2' >
+                                    <button onClick={() => onClickHandler("certificate")} className="btn blue lighten-2">
                                         View
-                                    </Link>
+                                    </button>
 
                                 </td>
                             </tr>
@@ -59,6 +75,11 @@ export default function Educations() {
                         </tbody>
                     </table>
                 </div>
+            </div>
+            <div>
+                {imageClicked.certificate && <img className="image" src={certificate} alt="certificate" />}
+                {/* {imageClicked.first && <img src={img6} alt="first" />}
+        {imageClicked.second && <img src={img7} alt="second" />} */}
             </div>
         </div>
     );

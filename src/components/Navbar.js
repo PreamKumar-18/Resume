@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import 'fa-icons';
+import 'font-awesome/css/font-awesome.min.css';
 import { HashLink as Link } from 'react-router-hash-link';
+import "./Navbar.css"
 
 export default class Navbar extends Component {
     render() {
@@ -36,11 +37,11 @@ export default class Navbar extends Component {
                                         <i class='fas fa-graduation-cap'></i> Educations
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link to='/portfolios' style={{ display: "flex" }}>
                                         <i class='fas fa-address-card'></i> Portfolios
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

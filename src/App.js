@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Skills from './components/Skills';
 import Experiences from './components/Experiences';
 import Educations from './components/Educations';
-import Portfolios from './components/Portfolios';
+// import Portfolios from './components/Portfolios';
 import './App.css';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path="/skills" component={Skills} />
         <Route path="/experiences" component={Experiences} />
         <Route path="/educations" component={Educations} />
-        <Route path="/portfolios" component={Portfolios} />
+        {/* <Route path="/portfolios" component={Portfolios} /> */}
       </Switch>
 
     </Router>
