@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import ImgProfile from '../images/person1.jpg';
+import ImgProfile from '../images/Photo.jpg';
 import 'font-awesome/css/font-awesome.min.css';
 
 
