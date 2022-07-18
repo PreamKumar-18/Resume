@@ -1,6 +1,8 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import certificate from "./../images/certificate.jpg";
+import Hscmarksheet from "./../images/Hscmarksheet.jpg";
+import Sslcmarksheet from "./../images/Sslcmarksheet.jpg"
+import DegreeCertificate from "./../images/DegreeCertificate.jpg"
 import { useState } from 'react';
 import "./Educations.css"
 
@@ -9,9 +11,9 @@ import "./Educations.css"
 
 export default function Educations() {
     const [imageClicked, setImageClicked] = useState({
-        //   first: false,
-        //   second: false,
-        certificate: false
+        Hscmarksheet: false,
+        Sslcmarksheet: false,
+        DegreeCertificate: false
     });
     const onClickHandler = (order) => {
         setImageClicked((prevState) => ({
@@ -31,7 +33,7 @@ export default function Educations() {
                             <tr>
                                 <th>Education Details</th>
                                 <th>Date</th>
-                                <th>Certificates</th>
+                                <th>certificates</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -39,7 +41,7 @@ export default function Educations() {
                                 <td>SSC</td>
                                 <td>Mar 2016</td>
                                 <td>
-                                    <button onClick={() => onClickHandler("certificate")} className="btn blue lighten-2">
+                                    <button onClick={() => onClickHandler("Sslcmarksheet")} className="btn blue lighten-2">
                                         View
                                     </button>
 
@@ -49,18 +51,18 @@ export default function Educations() {
                                 <td>HSC</td>
                                 <td>Mar 2018</td>
                                 <td>
-                                    <Link to='/details' className='btn blue lighten-2'>
+                                <button onClick={() => onClickHandler("Hscmarksheet")} className="btn blue lighten-2">
                                         View
-                                    </Link>
+                                    </button>
                                 </td>
                             </tr>
                             <tr>
                                 <td>B.sc Food Science and Technology</td>
                                 <td>Jun 2018 - May 2021</td>
                                 <td>
-                                    <Link to='/details' className='btn blue lighten-2'>
+                                <button onClick={() => onClickHandler("DegreeCertificate")} className="btn blue lighten-2">
                                         View
-                                    </Link>
+                                    </button>
                                 </td>
                             </tr>
                             <tr>
@@ -77,7 +79,9 @@ export default function Educations() {
                 </div>
             </div>
             <div>
-                {imageClicked.certificate && <img className="image" src={certificate} alt="certificate" />}
+                {imageClicked.Hscmarksheet && <img className="image" src={Hscmarksheet} alt="Hscmarksheet" />}
+                {imageClicked.Sslcmarksheet && <img className="image" src={Sslcmarksheet} alt="Sslcmarksheet" />}
+                {imageClicked.DegreeCertificate && <img className="image" src={DegreeCertificate} alt="DegreeCertificate" />}
                 {/* {imageClicked.first && <img src={img6} alt="first" />}
         {imageClicked.second && <img src={img7} alt="second" />} */}
             </div>
