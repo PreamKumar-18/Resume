@@ -1,8 +1,9 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
 import Hscmarksheet from "./../images/Hscmarksheet.jpg";
 import Sslcmarksheet from "./../images/Sslcmarksheet.jpg"
 import DegreeCertificate from "./../images/DegreeCertificate.jpg"
+import Frontend from "./../images/Frontend.jpg"
 import { useState } from 'react';
 import "./Educations.css"
 
@@ -66,12 +67,12 @@ export default function Educations() {
                                 </td>
                             </tr>
                             <tr>
-                                <td>Other</td>
+                                <td>Frontend Development</td>
                                 <td>Dec 2021</td>
                                 <td>
-                                    <Link to='/details' className='btn blue lighten-2'>
+                                <button onClick={() => onClickHandler("Frontend")} className="btn blue lighten-2">
                                         View
-                                    </Link>
+                                    </button>
                                 </td>
                             </tr>
                         </tbody>
@@ -82,6 +83,7 @@ export default function Educations() {
                 {imageClicked.Hscmarksheet && <img className="image" src={Hscmarksheet} alt="Hscmarksheet" />}
                 {imageClicked.Sslcmarksheet && <img className="image" src={Sslcmarksheet} alt="Sslcmarksheet" />}
                 {imageClicked.DegreeCertificate && <img className="image" src={DegreeCertificate} alt="DegreeCertificate" />}
+                {imageClicked.Frontend && <img className="image" src={Frontend} alt="Frontend" />}
                 {/* {imageClicked.first && <img src={img6} alt="first" />}
         {imageClicked.second && <img src={img7} alt="second" />} */}
             </div>
