@@ -32,7 +32,7 @@ export default function About() {
                 <strong>Phone:</strong> 8754212317
               </p>
             <div>
-              <a href="PreamKumar Resume.pdf" download="PreamKumar Resume.pdf">
+              <a href="Pream Kumar Resume.pdf" download="Pream Kumar Resume.pdf">
                 <button className="btn highlighted-btn">Get Resume </button>
               </a>
             </div>
