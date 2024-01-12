@@ -51,11 +51,11 @@ export default function Skills() {
                     </div>
                     <div className="row">
                         <div className="col s6">
-                            <p>ANGULAR Js</p>
+                            <p>BOOTSTRAP</p>
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"
-                                    style={{ width: '90%' }}
+                                    style={{ width: '80%' }}
                                 ></div>
                             </div>
                         </div>
@@ -64,12 +64,12 @@ export default function Skills() {
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"
-                                    style={{ width: '70%' }}
+                                    style={{ width: '50%' }}
                                 ></div>
                             </div>
                         </div>
                         <div className="col s6">
-                            <p>C#</p>
+                            <p>ANGULAR JS</p>
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"
@@ -78,7 +78,7 @@ export default function Skills() {
                             </div>
                         </div>
                         <div className="col s6">
-                            <p>Asp.Net</p>
+                            <p>PYTHON</p>
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"

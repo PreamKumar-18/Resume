@@ -34,7 +34,7 @@ export default function Educations() {
                             <tr>
                                 <th>Education Details</th>
                                 <th>Date</th>
-                                <th>certificates</th>
+                                <th>Certificates</th>
                             </tr>
                         </thead>
                         <tbody>

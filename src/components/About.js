@@ -32,46 +32,11 @@ export default function About() {
                 <strong>Phone:</strong> 8754212317
               </p>
             <div>
-              <a href="PreamKumar Resume.pdf" download="PreamKumar Resume.pdf">
+              <a href="Pream Kumar.pdf" download="Pream Kumar.pdf">
                 <button className="btn highlighted-btn">Get Resume </button>
               </a>
             </div>
             </div>
-            {/* <div className="col xl6 l6 m6 s12">
-                            <p>
-                                <strong>Main Language</strong> - English
-                            </p>
-                            <p>
-                                <strong>Second Language</strong> - Tamil
-                            </p>
-                            <p>
-                                <strong>Third Language</strong> - English
-                            </p>
-                        </div> */}
-
-            {/* <div className="col xl6 l6 m6 s12">
-              <div className="profile-details-role">
-                <span className="primary-text">
-                  {" "}
-                  <h1>
-                    {" "}
-                    <ReactTypical
-                      loop={Infinity}
-                      steps={[
-                        "Ethusiastic Dev 🔴",
-                        1000,
-                        "Front End Dev  ✅",
-                        1000,
-                        "React Dev 😎",
-                        1000,
-                        "Full-Stack Dev 🔵",
-                        1000,
-                      ]}
-                    />
-                  </h1>
-                </span>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

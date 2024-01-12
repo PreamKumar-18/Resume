@@ -24,8 +24,8 @@ export default function Experiences() {
                                     <p>Svam InternationalS.INC</p>
                                 </h6>
                                 <p>
-                                   <strong>Skills:</strong> HTML, CSS, JAVASCRIPT, BOOTSTRAP, TYPESCRIPT, ANGULAR JS, REACT JS, REACT REDUX,
-                                    C#, Asp.Net, Kendo React, Angular Material, Material UI.
+                                   <strong>Skills:</strong> HTML, CSS, JAVASCRIPT, TYPESCRIPT, ANGULAR JS, REACT JS, REACT REDUX,BOOTSTRAP,
+                                    MATERIAL UI
                                 </p>
                             </blockquote>
                         </div>
