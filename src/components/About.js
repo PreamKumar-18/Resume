@@ -10,10 +10,10 @@ export default function About() {
             <strong>ABOUT ME</strong>
           </h6>
           <p className="grey-text">
-            As a self - learned Front End Developer, working with React,
-            JavaScript, HTML, Cascading Style Sheets (CSS), Responsive web
-            layout using bootstrap. I am pursuing my Master’s degree focussed on
-            Information Technology in Alagappa University, Karaikudi, India.
+            To work in a creative and challenging environment using cutting edge
+            technologies where I can utilize my current skill set and sharpen
+            and improve them to compete with future IT requirement while
+            constantly learning and success delivering solution to problems.
           </p>
         </div>
         <div className="card-action">
@@ -31,11 +31,11 @@ export default function About() {
               <p>
                 <strong>Phone:</strong> 8754212317
               </p>
-            <div>
+              {/* <div>
               <a href="Pream Kumar.pdf" download="Pream Kumar.pdf">
                 <button className="btn highlighted-btn">Get Resume </button>
               </a>
-            </div>
+            </div> */}
             </div>
           </div>
         </div>

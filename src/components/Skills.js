@@ -59,30 +59,31 @@ export default function Skills() {
                                 ></div>
                             </div>
                         </div>
-                        <div className="col s6">
-                            <p>REDUX</p>
-                            <div className="progress grey lighten-1">
-                                <div
-                                    className="determinate blue"
-                                    style={{ width: '50%' }}
-                                ></div>
-                            </div>
-                        </div>
-                        <div className="col s6">
-                            <p>ANGULAR JS</p>
-                            <div className="progress grey lighten-1">
-                                <div
-                                    className="determinate blue"
-                                    style={{ width: '50%' }}
-                                ></div>
-                            </div>
-                        </div>
+                        
                         <div className="col s6">
                             <p>PYTHON</p>
                             <div className="progress grey lighten-1">
                                 <div
                                     className="determinate blue"
                                     style={{ width: '50%' }}
+                                ></div>
+                            </div>
+                        </div>
+                        <div className="col s6">
+                            <p>C#</p>
+                            <div className="progress grey lighten-1">
+                                <div
+                                    className="determinate blue"
+                                    style={{ width: '80%' }}
+                                ></div>
+                            </div>
+                        </div>
+                        <div className="col s6">
+                            <p>Asp.Net</p>
+                            <div className="progress grey lighten-1">
+                                <div
+                                    className="determinate blue"
+                                    style={{ width: '80%' }}
                                 ></div>
                             </div>
                         </div>
